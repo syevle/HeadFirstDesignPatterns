@@ -33,6 +33,5 @@ public class ConcreteSubject extends Observable {
 		this.price = price;
 		setChanged();
 		notifyObservers(new Float(price));
-		//notifyObservers();
 	}
 }
