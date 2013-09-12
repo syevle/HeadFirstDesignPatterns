@@ -13,6 +13,7 @@ public class TestObservers {
 		s.setName("Frosted Flakes");
 		s.setPrice(4.57f);
 		s.setPrice(9.22f);
+		
 		s.setName("Sugar Crispies");
 	}
 }
