@@ -12,6 +12,9 @@ public class NameObserver implements Observer {
 	}
 
 	public void update(Observable obj, Object arg) {
+		
+		ConcreteSubject c = (ConcreteSubject)obj;
+		System.out.println(c.getName() + "---------"+c.getPrice());
 		if (arg instanceof String) {
 			name = (String) arg;
 			System.out.println("NameObserver: Name changed to " + name);

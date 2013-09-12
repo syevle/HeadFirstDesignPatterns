@@ -12,6 +12,8 @@ public class PriceObserver implements Observer {
 	}
 
 	public void update(Observable obj, Object arg) {
+		ConcreteSubject c = (ConcreteSubject)obj;
+		System.out.println(c.getName() + "---------"+c.getPrice());
 		if (arg instanceof Float) {
 			price = ((Float) arg).floatValue();
 			System.out.println("PriceObserver: Price changed to " + price);
