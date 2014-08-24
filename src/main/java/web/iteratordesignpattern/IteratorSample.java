@@ -1,4 +1,4 @@
-package web.iteratorDesignPattern;
+package web.iteratordesignpattern;
 /*
  * http://javapapers.com/design-patterns/iterator-design-pattern/
  */

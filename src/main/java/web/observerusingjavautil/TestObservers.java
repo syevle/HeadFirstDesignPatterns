@@ -1,4 +1,4 @@
-package web.ObserverUsingJavaUtil;
+package web.observerusingjavautil;
 
 public class TestObservers {
 	public static void main(String args[]) {

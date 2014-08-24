@@ -1,4 +1,4 @@
-package web.ObserverPattern;
+package web.observerpattern;
 /**
  * http://javapostsforlearning.blogspot.com/2013/02/observer-design-pattern-in-java.html
  * @author syevle

@@ -1,4 +1,4 @@
-package web.iteratorDesignPattern;
+package web.iteratordesignpattern;
 
 public interface Iterator {
 	public Animal nextAnimal();

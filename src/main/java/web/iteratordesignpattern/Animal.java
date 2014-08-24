@@ -1,4 +1,4 @@
-package web.iteratorDesignPattern;
+package web.iteratordesignpattern;
 
 public class Animal {
 	private String animalName;

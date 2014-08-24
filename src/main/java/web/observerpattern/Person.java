@@ -1,4 +1,4 @@
-package web.ObserverPattern;
+package web.observerpattern;
 
 public class Person implements Observer{
 

@@ -1,4 +1,4 @@
-package web.chainOfResponsibility;
+package web.chainofresponsibility;
 /**
  * http://javapapers.com/design-patterns/chain-of-responsibility-design-pattern/
  *

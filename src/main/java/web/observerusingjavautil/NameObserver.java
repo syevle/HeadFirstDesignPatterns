@@ -1,4 +1,4 @@
-package web.ObserverUsingJavaUtil;
+package web.observerusingjavautil;
 
 import java.util.Observable;
 import java.util.Observer;

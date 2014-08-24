@@ -1,4 +1,4 @@
-package web.ObserverPattern;
+package web.observerpattern;
 
 public interface Subject {
 	 public void registerObserver(Observer observer);

@@ -1,13 +1,13 @@
-package web.iteratorDesignPattern;
+package web.iteratordesignpattern;
 
 import java.util.List;
 
-public class DomesticIterator implements Iterator {
+public class WildIterator implements Iterator {
 
-	List<Animal> animalList;
+	public List<Animal> animalList;
 	private int position;
 
-	public DomesticIterator(List<Animal> animalList) {
+	public WildIterator(List<Animal> animalList) {
 		this.animalList = animalList;
 	}
 
@@ -15,7 +15,7 @@ public class DomesticIterator implements Iterator {
 	public Animal nextAnimal() {
 		Animal animal = null;
 		for (; position < animalList.size(); position++) {
-			if ("Domestic".equals((animalList.get(position)).getAnimalType())) {
+			if ("Wild".equals((animalList.get(position)).getAnimalType())) {
 				animal = animalList.get(position);
 				position++;
 				break;
@@ -27,7 +27,7 @@ public class DomesticIterator implements Iterator {
 	@Override
 	public boolean isLastAnimal() {
 		for (int i = position; i < animalList.size(); i++) {
-			if ("Domestic".equals((animalList.get(i)).getAnimalType())) {
+			if ("Wild".equals((animalList.get(i)).getAnimalType())) {
 				return false;
 			}
 		}

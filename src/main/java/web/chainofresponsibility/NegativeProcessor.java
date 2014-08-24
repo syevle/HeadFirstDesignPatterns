@@ -1,4 +1,4 @@
-package web.chainOfResponsibility;
+package web.chainofresponsibility;
 
 public class NegativeProcessor implements Chain {
 

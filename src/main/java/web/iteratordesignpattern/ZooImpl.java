@@ -1,4 +1,4 @@
-package web.iteratorDesignPattern;
+package web.iteratordesignpattern;
 
 import java.util.ArrayList;
 import java.util.List;
