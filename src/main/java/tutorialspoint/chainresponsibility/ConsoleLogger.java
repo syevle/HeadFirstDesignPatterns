@@ -1,4 +1,4 @@
-package tutorialspoint.ChainofResponsibility;
+package tutorialspoint.chainresponsibility;
 
 public class ConsoleLogger extends AbstractLogger {
 	public ConsoleLogger(int level) {

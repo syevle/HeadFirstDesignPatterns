@@ -1,4 +1,4 @@
-package tutorialspoint.ChainofResponsibility;
+package tutorialspoint.chainresponsibility;
 
 public class ChainPatternDemo {
 	private static AbstractLogger getChainOfLoggers() {

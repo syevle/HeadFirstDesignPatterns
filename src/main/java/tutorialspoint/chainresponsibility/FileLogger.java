@@ -1,4 +1,4 @@
-package tutorialspoint.ChainofResponsibility;
+package tutorialspoint.chainresponsibility;
 
 public class FileLogger extends AbstractLogger {
 	public FileLogger(int level) {

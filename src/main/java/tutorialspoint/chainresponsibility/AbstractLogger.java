@@ -1,4 +1,4 @@
-package tutorialspoint.ChainofResponsibility;
+package tutorialspoint.chainresponsibility;
 
 public abstract class AbstractLogger {
 	public static int INFO = 1;
