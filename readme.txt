@@ -1,0 +1,1 @@
+http://www.objectaid.com/ please install this dependency in eclipse so you can easily see class digram in eclipse.
