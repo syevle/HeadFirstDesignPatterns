@@ -1,4 +1,4 @@
-package myexample.chainresponsibility;
+package myexample.chainresponsibility_one;
 
 public interface DispenseChain {
 	 

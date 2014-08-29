@@ -1,4 +1,4 @@
-package myexample.chainresponsibility;
+package myexample.chainresponsibility_one;
 
 import java.util.Scanner;
 
