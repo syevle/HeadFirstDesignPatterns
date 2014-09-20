@@ -1,4 +1,4 @@
-package myexample.structural.flyweight;
+package myexample.structural.flyweight_1;
 
 public class FlyweightPatternDemo {
 	private static final String colors[] = { "Red", "Green", "Blue", "Orange",
