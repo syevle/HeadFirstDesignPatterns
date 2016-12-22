@@ -7,10 +7,13 @@ public class DemoCommandPattern {
 	public static void main(String args[]) {
 
 		// OnCommand is instantiated based on active device supplied by Remote
-		ConsumerElectronics ce = UniversalRemote.getActiveDevice();
+//		ConsumerElectronics ce = UniversalRemote.getActiveDevice();
+		Television ce = new Television();
 		OnCommand onCommand = new OnCommand(ce);
 		Button onButton = new Button(onCommand);
 		onButton.click();
+
+		System.out.println("############################################");
 
 		Television tv = new Television();
 		SoundSystem ss = new SoundSystem();

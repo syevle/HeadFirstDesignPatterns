@@ -7,7 +7,7 @@ public class TeamLeader extends Employee {
 	public void applyLeave(String employeeName, int numberofDaysLeave) {
 		// check if TeamLeader can process this request
 		if (numberofDaysLeave <= MAX_LEAVES_CAN_APPROVE) {
-			ApproveLeave(employeeName, numberofDaysLeave);
+			approveLeave(employeeName, numberofDaysLeave);
 		}
 		// if TeamLeader can't process the LeaveRequest then pass on to the
 		// supervisor(ProjectLeader)
@@ -17,7 +17,7 @@ public class TeamLeader extends Employee {
 		}
 	}
 
-	private void ApproveLeave(String employeeName, int numberofDaysLeave) {
+	private void approveLeave(String employeeName, int numberofDaysLeave) {
 		System.out.println("TeamLeader approved " + numberofDaysLeave
 				+ " days " + "Leave for the employee : " + employeeName);
 

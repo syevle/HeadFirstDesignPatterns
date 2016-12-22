@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class ATMDispenseChain {
  
-    private DispenseChain c1;
+    private final DispenseChain c1;
  
+    @SuppressWarnings("WeakerAccess")
     public ATMDispenseChain() {
         // initialize the chain
         this.c1 = new Dollar50Dispenser();
