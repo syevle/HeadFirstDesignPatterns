@@ -3,7 +3,7 @@ package myexample.creational.singleton;
 import java.lang.reflect.Constructor;
 /**
  * Reflection can be used to destroy all the above singleton implementation approaches. 
- * Let’s see this with an example class.
+ * Lets see this with an example class.
  * @author syevle
  *
  */

@@ -15,8 +15,8 @@ public class John implements ITarget {
 	static {
 		englishFrenchMap.put("how are you?", "comment allez-vous?");
 		englishFrenchMap.put("I am in USA", "Je suis aux Etats-Unis");
-		frenchEnglishMap.put("Je suis très bien", "I am fine");
-		frenchEnglishMap.put("où êtes-vous?", "where are you?");
+		frenchEnglishMap.put("Je suis trs bien", "I am fine");
+		frenchEnglishMap.put("o tes-vous?", "where are you?");
 
 	}
 

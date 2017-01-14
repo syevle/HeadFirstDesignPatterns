@@ -6,7 +6,7 @@ package myexample.structural.adapterdesign_1;
 public class Rohit implements FrenchSpeaker {
 
 	public static void main(String args[]) {
-		String replyFromDavid = new Rohit().askQuestion("où êtes-vous?");
+		String replyFromDavid = new Rohit().askQuestion("o tes-vous?");
 		System.out
 				.println("Reply From David [English Speaker can Speak and Understand only English] :  "
 						+ replyFromDavid);
@@ -27,7 +27,7 @@ public class Rohit implements FrenchSpeaker {
 	public String answerFortheQuestion(String words) {
 		String reply = null;
 		if (words.equalsIgnoreCase("comment allez-vous?")) {
-			reply = "Je suis très bien";
+			reply = "Je suis trï¿½s bien";
 		}
 		return reply;
 	}
