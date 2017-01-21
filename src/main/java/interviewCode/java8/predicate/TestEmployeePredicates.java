@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import static interviewCode.java8.predicate.EmployeePredicates.*;
-
+//http://howtodoinjava.com/java-8/how-to-use-predicate-in-java-8/
 public class TestEmployeePredicates {
     public static void main(String[] args){
         Employee e1 = new Employee(1,23,"M","Rick","Beethovan");
