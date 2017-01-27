@@ -1,4 +1,4 @@
-package myexample.creational.abstractFactoryDesignPattern.com.javasampleapproach.abstractfactory;
+package myexample.creational.abstract_factory_1;
 
 import java.util.ArrayList;
 import java.util.List;

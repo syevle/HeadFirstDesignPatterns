@@ -1,4 +1,4 @@
-package myexample.creational.abstract_factory;
+package myexample.creational.abstract_factory_2;
 
 public class LandAnimalFactory extends AnimalFactory {
 	public Animal getAnimal(String animalType) {
