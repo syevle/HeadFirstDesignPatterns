@@ -1,7 +1,5 @@
 package myexample.creational.abstract_factory_1;
 
-import com.javasampleapproach.abstractfactory.factories.AppleFactory;
-import com.javasampleapproach.abstractfactory.factories.SamsungFactory;
 
 public class MobileProducer {
 	public static MobileFactory getMobileFactory(MobileFactoryType type){
