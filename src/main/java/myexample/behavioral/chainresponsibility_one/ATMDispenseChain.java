@@ -37,3 +37,25 @@ public class ATMDispenseChain {
  
 }
 
+/*
+================================Output================================
+Enter amount to dispense
+550
+Dispensing 11 50$ note
+Enter amount to dispense
+100060
+Dispensing 2001 50$ note
+Dispensing 1 10$ note
+Enter amount to dispense
+680
+Dispensing 13 50$ note
+Dispensing 1 20$ note
+Dispensing 1 10$ note
+Enter amount to dispense
+67
+Amount should be in multiple of 10s.
+
+Process finished with exit code 0
+
+ */
+
