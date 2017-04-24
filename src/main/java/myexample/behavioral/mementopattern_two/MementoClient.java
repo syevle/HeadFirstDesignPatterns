@@ -24,3 +24,15 @@ public class MementoClient {
 	}
 
 }
+
+
+/*====================== OutPut ========================
+LED TV's snapshots Maintained by CareTaker :[Memento [ledTV=LedTV [size=42 inch, price=60000Rs, usbSupport=false]]]
+LED TV's snapshots Maintained by CareTaker :[Memento [ledTV=LedTV [size=42 inch, price=60000Rs, usbSupport=false]], Memento [ledTV=LedTV [size=46 inch, price=80000Rs, usbSupport=true]]]
+
+Orignator current state : Originator [ledTV=LedTV [size=50 inch, price=100000Rs, usbSupport=true]]
+
+Originator restoring to 42 inch LED TV...
+
+Orignator current state : Originator [ledTV=LedTV [size=42 inch, price=60000Rs, usbSupport=false]]
+ */

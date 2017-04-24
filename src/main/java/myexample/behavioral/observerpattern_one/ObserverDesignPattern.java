@@ -16,3 +16,10 @@ public class ObserverDesignPattern {
 	}
 
 }
+
+/*==============================OutPut====================================
+No New Article!
+State change reported by Subject.
+State change reported by Subject.
+Observer Design Pattern
+ */

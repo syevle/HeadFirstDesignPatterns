@@ -38,3 +38,27 @@ public class PrototypePatternDemo {
 	}
 
 }
+
+
+/*
+New Dog Object is created and return
+
+Dog [name=Tommy, age=3, color=White, dogleg=Dogleg [numberOflegs=4], dogtail=Dogtail [tailLength=long], dogear=Dogear [numberOfEars=2], dogeye=Dogeye [numberOfEyes=2]]
+-----------------------------------------------------------------------------------------------------
+
+Cloned Dog Object is created and return
+
+Dog [name=Jonnie, age=4, color=Brown, dogleg=Dogleg [numberOflegs=4], dogtail=Dogtail [tailLength=long], dogear=Dogear [numberOfEars=2], dogeye=Dogeye [numberOfEyes=2]]
+-----------------------------------------------------------------------------------------------------
+
+Cloned Dog Object is created and return
+
+Dog [name=Tony, age=5, color=Brown, dogleg=Dogleg [numberOflegs=4], dogtail=Dogtail [tailLength=long], dogear=Dogear [numberOfEars=2], dogeye=Dogeye [numberOfEyes=2]]
+-----------------------------------------------------------------------------------------------------
+
+Cloned Dog Object is created and return
+
+Dog [name=Jimmy, age=8, color=Brown, dogleg=Dogleg [numberOflegs=4], dogtail=Dogtail [tailLength=long], dogear=Dogear [numberOfEars=2], dogeye=Dogeye [numberOfEyes=2]]
+-----------------------------------------------------------------------------------------------------
+
+ */

@@ -1,9 +1,6 @@
 package myexample.creational.factory_2;
 
 import java.util.Random;
-
-
-
 public class Audi implements Car {
 
 	int id;

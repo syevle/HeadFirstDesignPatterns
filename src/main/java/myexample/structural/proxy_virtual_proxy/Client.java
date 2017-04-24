@@ -31,3 +31,24 @@ class Client {
 	}
 
 }
+/*
+		IMAGE1[myexample.structural.proxy_virtual_proxy.ProxyImage@3cd1a2f1] calling displayImage first time :
+		Loading   HiResolution_100MB_Dog Photo
+		Displaying HiResolution_100MB_Dog Photo
+
+		IMAGE1[myexample.structural.proxy_virtual_proxy.ProxyImage@3cd1a2f1] calling displayImage second time :
+		Displaying HiResolution_100MB_Dog Photo
+
+		IMAGE1[myexample.structural.proxy_virtual_proxy.ProxyImage@3cd1a2f1] calling displayImage third time :
+		Displaying HiResolution_100MB_Dog Photo
+
+		###############################################################
+
+		IMAGE2[myexample.structural.proxy_virtual_proxy.ProxyImage@2f0e140b] calling displayImage first time :
+		Loading   HiResolution_100MB_Lion photo
+		Displaying HiResolution_100MB_Lion photo
+
+		IMAGE2[myexample.structural.proxy_virtual_proxy.ProxyImage@2f0e140b] calling displayImage second time :
+		Displaying HiResolution_100MB_Lion photo
+
+*/

@@ -59,3 +59,43 @@ public class CriteriaPatternDemo {
 		}
 	}
 }
+
+/*
+		Person : [ Name : Robert, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : John, Gender : Male, Marital Status : Married ]
+		Person : [ Name : Mike, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Bobby, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
+		Person : [ Name : Diana, Gender : Female, Marital Status : NotMarried ]
+		---------------------------------------------------------------------
+		Males:
+		Person : [ Name : Robert, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : John, Gender : Male, Marital Status : Married ]
+		Person : [ Name : Mike, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Bobby, Gender : Male, Marital Status : NotMarried ]
+
+		Females:
+		Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
+		Person : [ Name : Diana, Gender : Female, Marital Status : NotMarried ]
+
+		NotMarried:
+		Person : [ Name : Robert, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Mike, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Bobby, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Diana, Gender : Female, Marital Status : NotMarried ]
+
+		Married:
+		Person : [ Name : John, Gender : Male, Marital Status : Married ]
+		Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
+
+		Married and Male:
+		Person : [ Name : John, Gender : Male, Marital Status : Married ]
+
+		NotMarried Or Female
+		Person : [ Name : Robert, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Mike, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Bobby, Gender : Male, Marital Status : NotMarried ]
+		Person : [ Name : Diana, Gender : Female, Marital Status : NotMarried ]
+		Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
+
+*/

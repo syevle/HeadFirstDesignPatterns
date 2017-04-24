@@ -24,3 +24,19 @@ public class Client {
 
 	}
 }
+/*
+Do you want to send 'longmessage' or 'shortmessage' ?
+shortmessage
+Please enter the message you want to send
+hi
+'hi'   : This Message has been sent using SMS
+
+==============================================
+
+Do you want to send 'longmessage' or 'shortmessage' ?
+longmessage
+Please enter the message you want to send
+hi i am boy
+'hi i am boy'   : This Message has been sent using Email
+
+ */

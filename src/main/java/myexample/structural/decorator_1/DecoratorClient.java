@@ -16,3 +16,10 @@ public class DecoratorClient {
 	}
 
 }
+/*
+	Plain Dosa
+
+    'Plain Dosa ,Onion added' using OnionDosaDecorator
+
+	'Plain Dosa ,Masala added' using MasalaDosaDecorator
+*/

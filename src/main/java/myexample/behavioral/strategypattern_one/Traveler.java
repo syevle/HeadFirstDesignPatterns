@@ -29,3 +29,21 @@ public class Traveler {
 
 	}
 }
+
+
+/*
+Please enter Travel Type : 'Bus' or 'Train' or 'Taxi' or 'Auto'
+Bus
+Travel type is : Bus
+Travel context has : myexample.behavioral.strategypattern_one.BusTravelStrategy@2626b418
+Traveler is going to Airport by bus and will be charged 200 Rs
+
+
+Please enter Travel Type : 'Bus' or 'Train' or 'Taxi' or 'Auto'
+Train
+Travel type is : Train
+Travel context has : myexample.behavioral.strategypattern_one.TrainTravelStrategy@2626b418
+Traveler is going to Airport by Train and will be charged 300 Rs
+
+
+ */

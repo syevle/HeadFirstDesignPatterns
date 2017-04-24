@@ -29,3 +29,14 @@ public class Client {
 	}
 
 }
+
+/*
+Animal Type : myexample.creational.factory_1.Dog
+dog speak : Bark Bark Bark
+
+Animal Type : myexample.creational.factory_1.Duck
+duck speak : Quack Quack Quack
+
+Animal Type : myexample.creational.factory_1.Lion
+lion speak : Roar
+ */

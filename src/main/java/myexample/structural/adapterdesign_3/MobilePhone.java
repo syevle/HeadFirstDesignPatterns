@@ -13,3 +13,11 @@ public class MobilePhone {
 				+ volt.getVolts() + "v");
 	}
 }
+
+/*
+From ElectricSocket MobilePhoneCharger got :120v
+
+MobilePhoneCharger converterd 120v to 9v
+
+Mobile phone is charging using : 9v
+*/

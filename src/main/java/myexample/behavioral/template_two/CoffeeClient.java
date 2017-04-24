@@ -17,3 +17,22 @@ public class CoffeeClient {
 	}
 
 }
+
+
+/*
+Bru coffee preparation
+
+100 ml water boiled
+100 ml milk Added
+100 grams sugar Added
+10 grams Bru coffee powder Added
+Hot coffee ready.....
+*******************************************
+Nescafe coffee preparation
+
+200 ml water boiled
+200 ml milk Added
+200 grams sugar Added
+20 grams Nescafe coffee powder Added
+Hot coffee ready.....
+ */

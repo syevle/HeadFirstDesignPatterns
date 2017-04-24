@@ -13,3 +13,10 @@ public class MediatorDesignPattern {
 		sparrow101.land();
 	}
 }
+
+/*=================== OutPut =====================
+Getting ready...
+Landing permission granted...
+Landing done....
+
+ */

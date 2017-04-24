@@ -44,3 +44,26 @@ public class Client {
 	}
 
 }
+
+/*
+ATM Machine Current state : myexample.behavioral.state_1.NoDebitCardState
+
+No Debit Card in ATM Machine slot, so you cannot enter the pin and withdraw the money...
+No Debit Card in ATM Machine slot, so you cannot eject the Debit Card...
+DebitCard inserted ....
+ATM Machine internal state has been moved to : myexample.behavioral.state_1.HasDebitCardState
+
+*******************************************************
+
+ATM Machine Current state : myexample.behavioral.state_1.HasDebitCardState
+
+Pin number has been entered correctly and money has been withdrawn...
+Debit Card is already there,So you cannot insert the Debit Card ...
+Debit Card is ejected...
+ATM Machine internal state has been moved to : myexample.behavioral.state_1.NoDebitCardState
+
+*******************************************************
+
+ATM Machine Current state : myexample.behavioral.state_1.NoDebitCardState
+
+ */

@@ -27,3 +27,12 @@ public class MementoClient {
 				.println("Originator Current State: " + originator.getState());
 	}
 }
+
+
+/*============================= OutPut ===========================
+Originator Current State: Elephant
+Originator restoring to previous state...
+Originator Current State: Horse
+Again restoring to previous state...
+Originator Current State: Lion
+ */

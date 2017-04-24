@@ -19,3 +19,12 @@ public class ChatClient {
 	}
 
 }
+
+/*
+Steve: Sending Message=Hello Everybody...Shall we start the meeting?
+
+Ram: Received Message:Hello Everybody...Shall we start the meeting?
+David: Received Message:Hello Everybody...Shall we start the meeting?
+Juli: Received Message:Hello Everybody...Shall we start the meeting?
+
+ */

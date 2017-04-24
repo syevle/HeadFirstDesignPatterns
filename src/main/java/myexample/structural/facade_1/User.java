@@ -8,3 +8,9 @@ class User {
       computer.run();
   }
 }
+
+/*
+processing Data
+loading Memory
+Loading HardDrive
+ */

@@ -87,3 +87,52 @@ public class CompositePatternDemo {
 	}
 
 }
+
+/*
+
+
+------------- SubordinatesListOf Dave : CEO ---------------------------------
+
+peter : Dev Manager:100000:1200000
+John : QA Manager:100000:1200000
+
+------------- SubordinatesListOf peter : Dev Manager ---------------------------------
+
+Rohan : Dev TeamLead:50000:600000
+
+------------- SubordinatesListOf John : QA Manager ---------------------------------
+
+Vijay : QA TeamLead:50000:600000
+
+------------- SubordinatesListOf Rohan : Dev TeamLead ---------------------------------
+
+Raj : Dev Software Engineer:30000:360000
+Mohan : Dev Software Engineer:30000:360000
+Hema : Dev Software Engineer:30000:360000
+
+------------- SubordinatesListOf Vijay : QA TeamLead ---------------------------------
+
+Saran : QA Software Engineer:20000:240000
+Riya : QA Software Engineer:20000:240000
+
+--------------------------------------------------------------------------------------
+
+No Subordinates for Raj : Dev Software Engineer : 30000 : 360000
+
+--------------------------------------------------------------------------------------
+
+No Subordinates for Mohan : Dev Software Engineer : 30000 : 360000
+
+--------------------------------------------------------------------------------------
+
+No Subordinates for Hema : Dev Software Engineer : 30000 : 360000
+
+--------------------------------------------------------------------------------------
+
+No Subordinates for Saran : QA Software Engineer : 20000 : 240000
+
+--------------------------------------------------------------------------------------
+
+No Subordinates for Riya : QA Software Engineer : 20000 : 240000
+
+ */

@@ -26,3 +26,11 @@ public class DemoCommandPattern {
 
 	}
 }
+
+
+/*================================Output==============================
+Television is on!
+############################################
+Television is muted!
+Sound system is muted!
+ */

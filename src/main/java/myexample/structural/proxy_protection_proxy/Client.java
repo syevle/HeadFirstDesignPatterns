@@ -22,3 +22,14 @@ public class Client {
 		folderProxyWrong.performReadOrWriteOperations();
 	}
 }
+/*
+
+class myexample.structural.proxy_protection_proxy.Client : Client passing user with designation 'CEO' to folderproxy
+class myexample.structural.proxy_protection_proxy.FolderProxy : Folder Proxy makes call to the RealFolder 'performReadOrWriteOperations method'
+class myexample.structural.proxy_protection_proxy.Folder : Performing read or write operation on the folder
+
+		************************************************************           ***********************
+
+class myexample.structural.proxy_protection_proxy.Client : Client passing user with designation 'Developer' to folderproxy
+class myexample.structural.proxy_protection_proxy.FolderProxy: Folder proxy says 'You don't have access to this folder'
+*/

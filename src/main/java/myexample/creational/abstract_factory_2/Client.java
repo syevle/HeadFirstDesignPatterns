@@ -55,3 +55,26 @@ public class Client {
 
 	}
 }
+
+
+/*
+Animal Factory type : myexample.creational.abstract_factory_2.SeaAnimalFactory
+
+Animal Type : myexample.creational.abstract_factory_2.Shark
+shark speak : Cannot Speak
+
+Animal Type : myexample.creational.abstract_factory_2.Octopus
+octopus speak : SQUAWCK
+---------------------------------------------------------
+Animal Factory type : myexample.creational.abstract_factory_2.LandAnimalFactory
+
+Animal Type : myexample.creational.abstract_factory_2.Dog
+dog speak : Bark Bark Bark
+
+Animal Type : myexample.creational.abstract_factory_2.Cat
+cat speak : Meow Meow Meow
+
+Animal Type : myexample.creational.abstract_factory_2.Lion
+lion speak : Roar
+
+ */

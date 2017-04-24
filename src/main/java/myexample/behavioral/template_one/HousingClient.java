@@ -19,3 +19,22 @@ public class HousingClient {
 	}
 
 }
+
+/*
+
+Build a WoodenHouse
+
+Building foundation with cement,iron rods,sand and wood
+Building Pillars with Wood coating
+Building Wooden Walls
+Building Wooden Windows
+House is built.
+************************************************************
+Build a GlassHouse
+
+Building foundation with cement,iron rods and sand
+Building Pillars with glass coating
+Building Glass Walls
+Building Glass Windows
+House is built.
+ */

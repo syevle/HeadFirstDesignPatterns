@@ -43,3 +43,69 @@ public class FlyweightPatternDemo {
 		}
 	}
 }
+
+
+/*
+
+################ Red color Circles ####################
+		Creating circle object with out any color in shapefactory : myexample.structural.flyweight_1.Circle@3cd1a2f1
+
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Red, x : 10, y :20, radius :30
+
+		############### Green color Circles ####################
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Green, x : 10, y :20, radius :30
+
+		################ Blue color Circles ####################
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Blue, x : 10, y :20, radius :30
+
+		################ Orange color Circles ####################
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Orange, x : 10, y :20, radius :30
+
+		################ Black color Circles ####################
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+		myexample.structural.flyweight_1.Circle@3cd1a2f1 : Circle: Draw() [Color : Black, x : 10, y :20, radius :30
+*/

@@ -36,3 +36,19 @@ public class Waitress {
 				+ coffeeFactory.getTotalCoffeeFlavorsMade());
 	}
 }
+/*
+	    Coffee is created! - Cappuccino
+		Coffee is created! - Regular Coffee
+		Serving Cappuccino to table 2
+		Serving Cappuccino to table 2
+		Serving Regular Coffee to table 1
+		Serving Regular Coffee to table 2
+		Serving Regular Coffee to table 3
+		Serving Regular Coffee to table 4
+		Serving Cappuccino to table 4
+		Serving Cappuccino to table 5
+		Serving Regular Coffee to table 3
+		Serving Cappuccino to table 3
+
+		Total Coffee objects made: 2
+*/

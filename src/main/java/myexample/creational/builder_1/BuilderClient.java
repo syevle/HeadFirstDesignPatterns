@@ -13,3 +13,21 @@ public class BuilderClient {
 		System.out.println(coffee);
 	}
 }
+
+/*
+Tea
+Step 1 : Boiling water
+Step 2 : Adding milk
+Step 3 : Adding sugar
+Step 4 : Adding 9 Grams of tea powder
+Hot Tea!!!!  [40 ml of water, 50ml of milk, 10 gm of sugar, 9 gm of Tea]
+
+Coffee
+Step 1 : Boiling water
+Step 2 : Adding milk
+Step 3 : Adding sugar
+Step 4 : Adding 9 Grams of coffee powder
+Hot Coffee!!!!  [40 ml of water, 50ml of milk, 10 gm of sugar, 9 gm of Coffee]
+
+
+ */

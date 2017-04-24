@@ -22,3 +22,13 @@ public class IteratorSample {
 		}
 	}
 }
+
+/*========================== OutPut ============================
+Wild Animal: Tiger
+Wild Animal: Lion
+Wild Animal: Raging Bull
+Domestic Animal: Tom Cat
+Domestic Animal: Scooby Doo
+
+
+ */

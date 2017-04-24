@@ -30,3 +30,8 @@ public class InterpreterClient {
  
     }
 }
+
+/*================================= OutPut ==================================
+28 in Binary= 11100
+28 in Hexadecimal= 1c
+ */

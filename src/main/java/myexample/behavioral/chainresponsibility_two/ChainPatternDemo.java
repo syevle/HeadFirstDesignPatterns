@@ -19,3 +19,16 @@ public class ChainPatternDemo {
 	}
 
 }
+
+/*
+====================================Output=======================================
+TeamLeader approved 9 days Leave for the employee : David
+
+ProjectLeader approved 18 days Leave for the employee : John
+
+HR approved 30 days Leave for the employee : Steve
+
+Leave application suspended, Please contact HR
+
+Process finished with exit code 0
+ */

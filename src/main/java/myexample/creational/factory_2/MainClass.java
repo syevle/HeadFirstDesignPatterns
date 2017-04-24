@@ -17,3 +17,8 @@ public class MainClass {
 		}
 	}
 }
+/*
+Hello World! I'm a new Mercedes. My Id = 958724017
+Hello World! I'm a new Audi. My Id = -35194834
+Hello World! I'm a new BMW. My Id = -1245692273
+ */

@@ -30,3 +30,12 @@ public class Client {
 
 	}
 }
+
+/*
+Please enter the Social networking site you want to use to publish the message  : 'Twitter' or 'Facebook' or 'GooglePlus'
+Twitter
+Please enter the message you want to publish
+Hi are you there
+'Hi are you there' : This message has been published to public in Twitter Social networking site
+
+ */
