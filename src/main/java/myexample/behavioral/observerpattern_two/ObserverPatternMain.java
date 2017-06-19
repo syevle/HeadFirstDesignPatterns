@@ -17,15 +17,14 @@ public class ObserverPatternMain {
 
 		ArrayList<Observer> subscribers = samsungLEDTV.getObservers();
 		System.out.println("subscribers List : " + subscribers);
-		for (Iterator<Observer> iterator = subscribers.iterator(); iterator
-				.hasNext();) {
-			Person person = (Person) iterator.next();
-			System.out.println("This person has subscribed : "
-					+ person.getPersonName());
-		}
+
+		subscribers.forEach(e->{
+			Person person = (Person) e;
+			System.out.println("This person has subscribed : " + person.getPersonName());
+		});
+
 		System.out.println();
-		System.out.println("SamsungLED TV current state : "
-				+ samsungLEDTV.getAvailability());
+		System.out.println("SamsungLED TV current state : " + samsungLEDTV.getAvailability());
 		System.out.println();
 		// Now product is available
 		samsungLEDTV.setAvailability("Available");
