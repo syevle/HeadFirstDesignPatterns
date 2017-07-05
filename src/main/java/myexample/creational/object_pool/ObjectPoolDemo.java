@@ -98,3 +98,26 @@ public class ObjectPoolDemo
    } 
 
 }//End of the ObjectPoolDemo class.
+/*
+Object with process no. 1 was created
+Object with process no. 2 was created
+Object with process no. 3 was created
+Object with process no. 4 was created
+Thread 1: Object with process no. 1 was borrowed
+Thread 2: Object with process no. 2 was borrowed
+Thread 3: Object with process no. 3 was borrowed
+Thread 1: Object with process no. 1 was returned
+Thread 4: Object with process no. 4 was borrowed
+Thread 4: Object with process no. 4 was returned
+Thread 3: Object with process no. 3 was returned
+Thread 2: Object with process no. 2 was returned
+Thread 5: Object with process no. 1 was borrowed
+Thread 6: Object with process no. 2 was borrowed
+Thread 5: Object with process no. 1 was returned
+Thread 6: Object with process no. 2 was returned
+Thread 7: Object with process no. 3 was borrowed
+Thread 7: Object with process no. 3 was returned
+Thread 8: Object with process no. 4 was borrowed
+Thread 8: Object with process no. 4 was returned
+
+ */

@@ -34,3 +34,28 @@ public class Customer {
 
 	}
 }
+/*
+Please enter Payment Type : 'CreditCard' or 'DebitCard' or 'ByCash'
+
+CreditCard
+Payment type is : CreditCard
+
+Please enter Amount to Pay :
+23
+amount is : 23
+PaymentContext has :myexample.behavioral.strategypattern_two.CreditCardPaymentStrategy@3d075dc0
+Customer pays the money 23Rs. using Credit Card
+ */
+
+/*
+Please enter Payment Type : 'CreditCard' or 'DebitCard' or 'ByCash'
+
+DebitCard
+Payment type is : DebitCard
+
+Please enter Amount to Pay :
+67
+amount is : 67
+PaymentContext has :myexample.behavioral.strategypattern_two.DebitCardPaymentStrategy@3d075dc0
+Customer pays the money 67Rs. using Debit Card
+ */

@@ -18,3 +18,11 @@ public class DecoratorClient {
 	}
 
 }
+
+/*
+Plain Pizza
+
+'Plain Pizza ,Chicken and Cheese added' using ChickenPizzaDecorator
+
+'Plain Pizza ,Vegetable and Cheese added' using VegPizzaDecorator
+ */

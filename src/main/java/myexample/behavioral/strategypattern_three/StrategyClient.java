@@ -32,3 +32,16 @@ public class StrategyClient {
 
 	}
 }
+
+/*
+Please enter Search Algorithm  : 'Linear' or 'Binary'
+
+Linear
+Search Algorithm is : Linear
+
+Please enter element to be searched :
+4
+ElementToSearch is : 4
+Position of the element has been found using LinearSearch Algorithm
+Position of the element is : 3
+ */

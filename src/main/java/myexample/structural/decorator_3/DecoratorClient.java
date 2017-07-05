@@ -21,3 +21,14 @@ public class DecoratorClient {
 	}
 
 }
+
+/*
+Vanilla Icecream
+
+'Vanilla Icecream + with nuts' is prepared using NuttyDecorator
+
+'Vanilla Icecream + with chocolate' is prepared using ChocolateDecorator
+
+'Vanilla Icecream + with chocolate + with nuts' is prepared using ChocolateDecorator and NuttyDecorator
+
+ */

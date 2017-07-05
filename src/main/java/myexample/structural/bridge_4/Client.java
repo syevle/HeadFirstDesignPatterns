@@ -18,3 +18,13 @@ public class Client {
 		samsungRemoteControl.setChannel(20);
 	}
 }
+
+/*
+Turning ON.. Sony TV.
+Turning Off.. Sony TV.
+Setting channel Number 20.. on Sony TV
+**********************************************************************
+Turning ON.. Samsung TV.
+Turning Off.. Samsung TV.
+Setting channel Number 20.. on Samsung TV
+ */
