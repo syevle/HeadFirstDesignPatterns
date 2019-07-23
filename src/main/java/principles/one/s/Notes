@@ -1,0 +1,32 @@
+1.1. Single Responsibility Principle Example
+
+We can plenty of classes in all popular Java libraries which follow single responsibility principle.
+For example, in log4j, we have different classes with logging methods, different classes are logging levels and so on.
+
+In our application level code, we define model classes to represent real time entities
+such as person, employee, account etc. Most of these classes are examples of SRP principle
+because when we need to change the state of a person, only then we will modify a person class. and so on.
+
+In given example, we have two classes Person and Account. Both have single responsibility to store
+their specific information. If we want to change state of Person then we do not need to modify the class Account
+and vice-versa.
+
+public class Person
+{
+    private Long personId;
+    private String firstName;
+    private String lastName;
+    private String age;
+    private List<Account> accounts;
+}
+
+
+public class Account
+{
+    private Long guid;
+    private String accountNumber;
+    private String accountName;
+    private String status;
+    private String type;
+}
+

@@ -1,0 +1,46 @@
+4. Interface Segregation Principle
+
+This principle is my favorite one. It is applicable to interfaces as single responsibility principle holds to classes. ISP says:
+
+    “Clients should not be forced to implement unnecessary methods which they will not use”
+
+Take an example. Developer Alex created an interface Reportable and added two methods generateExcel() and generatedPdf().
+Now client ‘A’ wants to use this interface but he intend to use reports only in PDF format and not in excel.
+Will he be able to use the functionality easily?
+
+NO. He will have to implement both the methods, out of which one is extra burden put on him by designer of software.
+Either he will implement another method or leave it blank. This is not a good design.
+
+So what is the solution? Solution is to create two interfaces by breaking the existing one.
+They should be like PdfReportable and ExcelReportable.
+This will give the flexibility to user to use only required functionality only.
+
+
+4.1. Interface Segregation Principle Example
+
+The best place to look for IPS examples is Java AWT event handlers for handling GUI events fired from keyboard and mouse. It has different listener classes for each kind of event. We only need to write handlers for events, we wish to handle. Nothing is mandatory.
+
+Some of the listeners are –
+
+    FocusListener
+    KeyListener
+    MouseMotionListener
+    MouseWheelListener
+    TextListener
+    WindowFocusListener
+
+Anytime, we wish to handle any event, just find out corresponding listener and implement it.
+
+public class MouseMotionListenerImpl implements MouseMotionListener
+{
+    @Override
+    public void mouseDragged(MouseEvent e) {
+        //handler code
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent e) {
+        //handler code
+    }
+}
+

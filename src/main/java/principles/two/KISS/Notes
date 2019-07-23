@@ -1,0 +1,79 @@
+The KISS principle is descriptive to "keep the code simple and clear, making it easy to understand".
+After all, programming languages are for humans to understand — computers can only understand 0 and 1 — so
+keep coding simple and straightforward. Keep your methods small. Each method should never be more than 40-50 lines.
+
+Each method should only solve one small problem, not many use cases. If you have a lot of conditions in the method,
+break these out into smaller methods. It will not only be easier to read and maintain,
+but it can help find bugs a lot faster.
+
+Violations of KISS
+
+We have all likely experienced the situation where we get work to do in a project and found some messy code written.
+That leads us to ask why they have written these unnecessary lines.
+Just have a look at below two code snippets shown below. Both methods are doing the same thing.
+Now you have to decide which one to use:
+
+public String weekday1(int day) {
+    switch (day) {
+
+        case 1:
+
+            return "Monday";
+
+        case 2:
+
+            return "Tuesday";
+
+        case 3:
+
+            return "Wednesday";
+
+        case 4:
+
+            return "Thursday";
+
+        case 5:
+
+            return "Friday";
+
+        case 6:
+
+            return "Saturday";
+
+        case 7:
+
+            return "Sunday";
+
+        default:
+
+            throw new InvalidOperationException("day must be in range 1 to 7");
+
+    }
+
+}
+
+public String weekday2(int day) {
+
+    if ((day < 1) || (day > 7)) throw new InvalidOperationException("day must be in range 1 to 7");
+
+    string[] days = {
+
+        "Monday",
+
+        "Tuesday",
+
+        "Wednesday",
+
+        "Thursday",
+
+        "Friday",
+
+        "Saturday",
+
+        "Sunday"
+
+    };
+
+    return days[day - 1];
+
+}

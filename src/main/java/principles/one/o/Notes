@@ -1,0 +1,44 @@
+2. Open Closed Principle
+
+This is second important rule which we should keep in mind while designing our application. Open closed principle states:
+
+    “Software components should be open for extension, but closed for modification”
+
+What does this mean?? This means that our classes should be designed such a way that whenever fellow developers
+wants to change the flow of control in specific conditions in application, all they need to extend our class
+and override some functions and that’s it.
+
+If other developers are not able to design desired behavior due to constraints put by our class,
+then we should reconsider changing our class. I do not mean here that anybody can change the whole logic of our class,
+but he/she should be able to override the options provided by software in unharmful way permitted by software.
+
+
+2.1. Open Closed Principle Example
+
+If we take a look into any good framework like struts or spring, we will see that we can not change their core logic
+and request processing, but we modify the desired application flow just by extending some classes and plugin
+them in configuration files.
+
+For example, spring framework has class DispatcherServlet. This class acts as front controller for
+String based web applications. To use this class, we are not required to modify this class.
+All we need is to pass initialization parameters and we can extend it’s functionality the way we want.
+
+Please note that apart from passing initialization parameters during application startup,
+we can override methods as well to modify the behavior of target class by extending the classes.
+For example, struts Action classes are extended to override the request processing logic.
+
+
+public class HelloWorldAction extends Action
+{
+    @Override
+    public ActionForward execute(ActionMapping mapping,
+                                ActionForm form,
+                                HttpServletRequest request,
+                                HttpServletResponse response)
+                                throws Exception
+    {
+
+        //Process the request
+
+    }
+}
