@@ -18,12 +18,17 @@ public class ChatMediatorImpl implements ChatMediator {
 
 	@Override
 	public void sendMessage(String message, User user) {
-		for (User u : this.users) {
-			// Message should not be received by the user who is sending it
+//		for (User u : this.users) {
+//			// Message should not be received by the user who is sending it
+//			if (u != user) {
+//				u.receive(message);
+//			}
+//		}
+		this.users.forEach(u -> {
 			if (u != user) {
 				u.receive(message);
 			}
-		}
+		});
 	}
 
 }
