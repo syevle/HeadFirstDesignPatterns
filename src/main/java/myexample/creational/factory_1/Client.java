@@ -6,21 +6,21 @@ public class Client {
 		AnimalFactory animalFactory = new AnimalFactory();
 		Animal animal = null;
 		String speakSound = null;
-		animal = animalFactory.getAnimal("dog");
+		animal = animalFactory.getAnimal(AnimalType.dog);
 		System.out.println("Animal Type : " + animal.getClass().getName());
 		speakSound = animal.speak();
 
 		System.out.println("dog speak : " + speakSound);
 		System.out.println();
 
-		animal = animalFactory.getAnimal("duck");
+		animal = animalFactory.getAnimal(AnimalType.duck);
 		System.out.println("Animal Type : " + animal.getClass().getName());
 		speakSound = animal.speak();
 
 		System.out.println("duck speak : " + speakSound);
 		System.out.println();
 
-		animal = animalFactory.getAnimal("lion");
+		animal = animalFactory.getAnimal(AnimalType.lion);
 		System.out.println("Animal Type : " + animal.getClass().getName());
 		speakSound = animal.speak();
 
