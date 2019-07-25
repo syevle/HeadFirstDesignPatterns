@@ -2,6 +2,7 @@ package myexample.behavioral.observerpattern_two;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class ObserverPatternMain {
 
@@ -15,7 +16,7 @@ public class ObserverPatternMain {
 		// registered to the subject
 		Person john = new Person("John", samsungLEDTV);
 
-		ArrayList<Observer> subscribers = samsungLEDTV.getObservers();
+		List<Observer> subscribers = samsungLEDTV.getObservers();
 		System.out.println("subscribers List : " + subscribers);
 
 		subscribers.forEach(e->{

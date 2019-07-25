@@ -1,9 +1,10 @@
 package myexample.behavioral.observerpattern_two;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Product implements Subject {
-	private ArrayList<Observer> observers = new ArrayList<Observer>();
+	private List<Observer> observers = new ArrayList<Observer>();
 	private String productName;
 	private String productType;
 	private String productPrice;
@@ -18,11 +19,11 @@ public class Product implements Subject {
 		this.availability = availability;
 	}
 
-	public ArrayList<Observer> getObservers() {
+	public List<Observer> getObservers() {
 		return observers;
 	}
 
-	public void setObservers(ArrayList<Observer> observers) {
+	public void setObservers(List<Observer> observers) {
 		this.observers = observers;
 	}
 
@@ -80,9 +81,10 @@ public class Product implements Subject {
 				+ this.productPrice
 				+ " is available now.So notifying all the users ");
 		System.out.println();
-		for (Observer observer : observers) {
-			observer.update(this.availability);
-		}
+//		for (Observer observer : observers) {
+//			observer.update(this.availability);
+//		}
+		observers.forEach(o->o.update(availability));
 
 	}
 }
