@@ -1,0 +1,6 @@
+Interface segragation : https://egkatzioura.com/2018/02/23/solid-principles-interface-segregation-principle/
+Single Responsibility : https://egkatzioura.com/2018/02/23/solid-principles-single-responsibility-principle/
+Open and Close : https://egkatzioura.com/2018/02/23/solid-principles-open-closed-principle/
+liskov : https://dzone.com/articles/solid-principles-liskov-substitution-principle?fromrel=true
+         https://egkatzioura.com/2018/02/23/solid-principles-liskov-substitution-principle/
+di : https://egkatzioura.com/2018/02/23/solid-principles-dependency-inversion-principle/
