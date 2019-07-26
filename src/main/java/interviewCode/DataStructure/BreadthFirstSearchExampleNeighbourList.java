@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class BreadthFirstSearchExampleNeighbourList {
-    private Queue<Node> queue;
+
     static ArrayList<Node> nodes = new ArrayList<Node>();
 
     static class Node{
@@ -28,12 +28,8 @@ public class BreadthFirstSearchExampleNeighbourList {
         }
     }
 
-    public BreadthFirstSearchExampleNeighbourList(){
-        this.queue = new LinkedList<Node>();
-
-    }
-
     public void bfs(Node node){
+        Queue<Node> queue = new LinkedList<Node>();
         queue.add(node);
         node.visited = true;
         while (!queue.isEmpty()){
