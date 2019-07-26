@@ -1,4 +1,4 @@
-package interviewCode.javatricky;
+package interviewCode.corejava.javatricky;
 
 
 class Test5{

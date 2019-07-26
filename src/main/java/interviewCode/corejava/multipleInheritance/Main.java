@@ -1,4 +1,4 @@
-package interviewCode.multipleInheritance;
+package interviewCode.corejava.multipleInheritance;
 
 //https://java2practice.com/2014/03/16/java-8-functional-interface-example/
 interface Test{

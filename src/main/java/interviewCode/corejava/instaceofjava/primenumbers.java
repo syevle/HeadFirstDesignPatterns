@@ -1,4 +1,4 @@
-package interviewCode.instaceofjava;
+package interviewCode.corejava.instaceofjava;
 
 /**
  * Created by Santosh on 6/1/17.

@@ -1,4 +1,4 @@
-package interviewCode.simplejavacode;
+package interviewCode.corejava.simplejavacode;
 
 
 import java.util.StringTokenizer;

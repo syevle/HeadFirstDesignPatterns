@@ -1,4 +1,4 @@
-package interviewCode.hashcode;
+package interviewCode.corejava.hashcode;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package interviewCode.comparable.java8Comparator;
+package interviewCode.java8.comparable;
 
 public class Employee {
     private Integer id;
