@@ -1,6 +1,6 @@
 package principles.one.d;
 
-public class Monitor {
-
+public interface Monitor {
+    public void displayScreen();
 
 }

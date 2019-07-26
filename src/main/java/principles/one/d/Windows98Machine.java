@@ -3,11 +3,15 @@ package principles.one.d;
 public class Windows98Machine {
 
   private final StandardKeyboard keyboard;
-  private final Monitor monitor;
+  private final StandardMonitor monitor;
+
+  /*
+  Here we can not pass NormalKeyboard and NormalMonitor.
+   */
 
   public Windows98Machine() {
 
-    monitor = new Monitor();
+    monitor = new StandardMonitor();
     keyboard = new StandardKeyboard();
 
   }
