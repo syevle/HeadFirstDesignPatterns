@@ -1,5 +1,5 @@
 //http://www.opendatastructures.org/ods-java/3_1_SLList_Singly_Linked_Li.html
-package interviewCode.javaCollection;
+package interviewCode.DataStructure;
 
 class Node {
     Node next;

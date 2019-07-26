@@ -1,4 +1,4 @@
-package interviewCode.javaCollection;
+package interviewCode.DataStructure;
 
 
 //https://www.java2novice.com/data-structures-in-java/linked-list/doubly-linked-list/

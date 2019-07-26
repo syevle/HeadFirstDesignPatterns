@@ -1,4 +1,4 @@
-package interviewCode.javaCollection;
+package interviewCode.DataStructure;
 
 
 import java.util.Arrays;
