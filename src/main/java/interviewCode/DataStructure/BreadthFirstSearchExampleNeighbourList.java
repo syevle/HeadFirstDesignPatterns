@@ -7,8 +7,6 @@ import java.util.Queue;
 
 public class BreadthFirstSearchExampleNeighbourList {
 
-    static ArrayList<Node> nodes = new ArrayList<Node>();
-
     static class Node{
         int data;
         boolean visited;
