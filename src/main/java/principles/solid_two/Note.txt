@@ -4,8 +4,5 @@ Open and Close : https://egkatzioura.com/2018/02/23/solid-principles-open-closed
 liskov : https://egkatzioura.com/2018/02/23/solid-principles-liskov-substitution-principle/
 Interface segragation : https://egkatzioura.com/2018/02/23/solid-principles-interface-segregation-principle/
 di : https://egkatzioura.com/2018/02/23/solid-principles-dependency-inversion-principle/
-
-
-
 liskov : https://dzone.com/articles/solid-principles-liskov-substitution-principle?fromrel=true
          https://dzone.com/articles/the-liskov-substitution-principle-with-examples
