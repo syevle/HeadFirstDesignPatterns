@@ -1,16 +1,18 @@
 //http://www.opendatastructures.org/ods-java/3_1_SLList_Singly_Linked_Li.html
 package interviewCode.DataStructure;
 
-class Node {
-    Node next;
-    int num;
-    public Node(int val) {
-        num = val;
-        next = null;
-    }
-}
+
 
 class LinkedList {
+
+    class Node {
+        Node next;
+        int num;
+        public Node(int val) {
+            num = val;
+            next = null;
+        }
+    }
 
     private Node head = null;
 
