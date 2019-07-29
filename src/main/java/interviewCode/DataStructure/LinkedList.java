@@ -36,6 +36,7 @@ class LinkedList {
             prevNode = currNode;
             currNode = currNode.next;
         }
+        //only head present (size of list is 1)
         if(prevNode == null){
             head = head.next;
             return;
@@ -45,6 +46,17 @@ class LinkedList {
             return;
         }
         prevNode.next = currNode.next;
+    }
+
+    private Node getLastNode() {
+        if (head == null) {
+            return null;
+        }
+        Node tmpNode = head;
+        while (tmpNode.next != null) {
+            tmpNode = tmpNode.next;
+        }
+        return tmpNode;
     }
 
     public void print() {
@@ -58,17 +70,6 @@ class LinkedList {
             System.out.print(tmpNode.num + " -> ");
             tmpNode = tmpNode.next;
         }
-    }
-
-    private Node getLastNode() {
-        if (head == null) {
-            return null;
-        }
-        Node tmpNode = head;
-        while (tmpNode.next != null) {
-            tmpNode = tmpNode.next;
-        }
-        return tmpNode;
     }
 
     public static void main(String[] args) {
