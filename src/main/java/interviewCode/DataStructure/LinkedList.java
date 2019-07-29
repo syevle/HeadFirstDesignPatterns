@@ -41,6 +41,7 @@ class LinkedList {
             head = head.next;
             return;
         }
+        //List not exit (list is null)
         if (currNode == null) {
             System.out.println("A node with that value does not exist.");
             return;
