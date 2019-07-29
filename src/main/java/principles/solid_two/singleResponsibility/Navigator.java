@@ -1,4 +1,4 @@
-package principles.solid_two.single;
+package principles.solid_two.singleResponsibility;
 
 public class Navigator {
 

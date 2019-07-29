@@ -1,4 +1,4 @@
-package principles.solid_two.ocp;
+package principles.solid_two.openclose;
 
 import java.math.BigDecimal;
 

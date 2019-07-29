@@ -1,4 +1,4 @@
-package principles.solid_two.segragation;
+package principles.solid_two.interfacesegragation;
 
 public interface Athlete {
 
