@@ -7,19 +7,6 @@ import java.util.NoSuchElementException;
 
 public class DoublyLinkedListImpl<E> {
 
-    private Node head;
-    private Node tail;
-    private int size;
-
-    public DoublyLinkedListImpl() {
-        size = 0;
-    }
-
-    /**
-     * this class keeps track of each element information
-     *
-     * @author java2novice
-     */
     private class Node {
         E element;
         Node next;
@@ -32,20 +19,17 @@ public class DoublyLinkedListImpl<E> {
         }
     }
 
-    /**
-     * returns the size of the linked list
-     *
-     * @return
-     */
+    private Node head;
+    private Node tail;
+    private int size;
+
+    public DoublyLinkedListImpl() {
+        size = 0;
+    }
+
     public int size() {
         return size;
     }
-
-    /**
-     * return whether the list is empty or not
-     *
-     * @return
-     */
     public boolean isEmpty() {
         return size == 0;
     }
