@@ -1,6 +1,7 @@
 2. Open Closed Principle
 
-This is second important rule which we should keep in mind while designing our application. Open closed principle states:
+This is second important rule which we should keep in mind while designing our application.
+Open closed principle states:
 
     “Software components should be open for extension, but closed for modification”
 
