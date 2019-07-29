@@ -1,5 +1,10 @@
 1.1. Single Responsibility Principle Example
 
+“A class should have only one reason to change.”
+
+Every module or class should have responsibility over a single part of the functionality provided by the software,
+and that responsibility should be entirely encapsulated by the class.
+
 We can plenty of classes in all popular Java libraries which follow single responsibility principle.
 For example, in log4j, we have different classes with logging methods, different classes are logging levels and so on.
 
