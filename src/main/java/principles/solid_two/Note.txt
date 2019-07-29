@@ -1,4 +1,5 @@
 Single Responsibility : https://egkatzioura.com/2018/02/23/solid-principles-single-responsibility-principle/
+                        https://dzone.com/articles/software-design-principles?fromrel=true
 Open and Close : https://egkatzioura.com/2018/02/23/solid-principles-open-closed-principle/
 liskov : https://egkatzioura.com/2018/02/23/solid-principles-liskov-substitution-principle/
 Interface segragation : https://egkatzioura.com/2018/02/23/solid-principles-interface-segregation-principle/
