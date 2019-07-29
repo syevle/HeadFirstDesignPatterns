@@ -26,9 +26,6 @@ public class DepthFirstSearchExampleNeighbourList
         public List<Node> getNeighbours() {
             return neighbours;
         }
-        public void setNeighbours(List<Node> neighbours) {
-            this.neighbours = neighbours;
-        }
     }
 
     // Recursive DFS

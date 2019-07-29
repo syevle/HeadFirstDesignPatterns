@@ -21,9 +21,6 @@ public class BreadthFirstSearchExampleNeighbourList {
         public List<Node> getNeighbours(){
             return neighbours;
         }
-        public void setNeighbours(List<Node> neighbours){
-            this.neighbours = neighbours;
-        }
     }
 
     public void bfs(Node node){
