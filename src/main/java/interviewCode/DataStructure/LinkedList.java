@@ -25,6 +25,56 @@ class LinkedList {
         }
     }
 
+    // This function will find middle element in linkedlist
+    public static Node findMiddleNode(Node head)
+    {
+        // step 1
+        Node slowPointer, fastPointer;
+        slowPointer = fastPointer = head;
+
+        while(fastPointer !=null) {
+            fastPointer = fastPointer.next;
+            if(fastPointer != null && fastPointer.next != null) {
+                slowPointer = slowPointer.next;
+                fastPointer = fastPointer.next;
+            }
+        }
+
+        return slowPointer;
+    }
+
+    public Node nthFromLastNode(Node head,int n)
+    {
+        Node firstPtr=head;
+        Node secondPtr=head;
+
+        for (int i = 0; i < n; i++) {
+            firstPtr=firstPtr.next;
+
+        }
+
+        while(firstPtr!=null)
+        {
+            firstPtr=firstPtr.next;
+            secondPtr=secondPtr.next;
+        }
+
+        return secondPtr;
+    }
+
+    public boolean ifLoopExists() {
+        Node fastPtr = head;
+        Node slowPtr = head;
+        while (fastPtr != null && fastPtr.next != null) {
+            fastPtr = fastPtr.next.next;
+            slowPtr = slowPtr.next;
+            if (slowPtr == fastPtr)
+                return true;
+
+        }
+        return false;
+    }
+
     public void delete(int val) {
         if(head == null){
             return;
@@ -58,6 +108,23 @@ class LinkedList {
             tmpNode = tmpNode.next;
         }
         return tmpNode;
+    }
+
+    public static Node reverseLinkedList(Node currentNode)
+    {
+        // For first node, previousNode will be null
+        Node previousNode=null;
+        Node nextNode;
+        while(currentNode!=null)
+        {
+            nextNode=currentNode.next;
+            // reversing the link
+            currentNode.next=previousNode;
+            // moving currentNode and previousNode by 1 node
+            previousNode=currentNode;
+            currentNode=nextNode;
+        }
+        return previousNode;
     }
 
     public void print() {
