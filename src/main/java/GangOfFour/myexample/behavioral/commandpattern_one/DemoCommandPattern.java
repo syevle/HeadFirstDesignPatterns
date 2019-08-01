@@ -1,4 +1,4 @@
-package GangOfFour.myexample.behavioral.commandpattern;
+package GangOfFour.myexample.behavioral.commandpattern_one;
 
 import java.util.ArrayList;
 import java.util.List;

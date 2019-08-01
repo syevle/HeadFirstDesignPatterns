@@ -1,4 +1,4 @@
-package GangOfFour.myexample.behavioral.commandpattern;
+package GangOfFour.myexample.behavioral.commandpattern_one;
 
 public interface Command {
 
