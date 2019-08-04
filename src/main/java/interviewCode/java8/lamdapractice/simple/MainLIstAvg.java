@@ -12,6 +12,14 @@ public class MainLIstAvg {
         l1.add(30);
         l1.add(40);
 
+//        MyListAvg myListAvg = marks -> {
+//            int sum = 0;
+//            for (int i=0; i< marks.size(); i++) {
+//                sum += marks.get(i);
+//            }
+//            return sum / marks.size();
+//        };
+
         MyListAvg myListAvg = (List<Integer> marks) -> {
             int sum = 0;
             for (int i=0; i< marks.size(); i++) {
