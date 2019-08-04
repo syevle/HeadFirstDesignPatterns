@@ -19,19 +19,16 @@ public class Employee {
                 Objects.equals(lastName, employee.lastName) &&
                 Objects.equals(department, employee.department);
     }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(id, firstname, lastName, department);
-//    }
 
 
     @Override
     public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (firstname != null ? firstname.hashCode() : 0);
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (department != null ? department.hashCode() : 0);
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + (id != null ? id.hashCode() : 0);
+        result = prime * result + (firstname != null ? firstname.hashCode() : 0);
+        result = prime * result + (lastName != null ? lastName.hashCode() : 0);
+        result = prime * result + (department != null ? department.hashCode() : 0);
         return result;
     }
 }
