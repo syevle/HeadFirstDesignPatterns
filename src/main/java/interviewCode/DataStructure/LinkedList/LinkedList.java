@@ -16,6 +16,17 @@ class LinkedList {
 
     private Node head = null;
 
+    private Node getLastNode() {
+        if (head == null) {
+            return null;
+        }
+        Node tmpNode = head;
+        while (tmpNode.next != null) {
+            tmpNode = tmpNode.next;
+        }
+        return tmpNode;
+    }
+
     public void append(int val) {
         Node lastNode = getLastNode();
         if (lastNode == null) {
@@ -97,17 +108,6 @@ class LinkedList {
             return;
         }
         prevNode.next = currNode.next;
-    }
-
-    private Node getLastNode() {
-        if (head == null) {
-            return null;
-        }
-        Node tmpNode = head;
-        while (tmpNode.next != null) {
-            tmpNode = tmpNode.next;
-        }
-        return tmpNode;
     }
 
     public static Node reverseLinkedList(Node currentNode)
