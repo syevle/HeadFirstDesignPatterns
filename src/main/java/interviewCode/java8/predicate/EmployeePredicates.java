@@ -19,6 +19,6 @@ public class EmployeePredicates
     }
 
     public static List<Employee> filterEmployees (List<Employee> employees, Predicate<Employee> predicate) {
-        return employees.stream().filter( predicate ).collect(Collectors.<Employee>toList());
+        return employees.stream().filter( predicate ).collect(Collectors.toList());
     }
 }
