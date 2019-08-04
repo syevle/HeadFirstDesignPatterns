@@ -1,4 +1,4 @@
-package interviewCode.DataStructure;
+package interviewCode.DataStructure.LinkedList;
 
 /*
 link : https://java2blog.com/intersection-two-linked-lists/

@@ -1,4 +1,4 @@
-package interviewCode.DataStructure;
+package interviewCode.DataStructure.MyArrayList;
 
 
 import java.util.Arrays;
