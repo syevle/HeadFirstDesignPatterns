@@ -63,24 +63,21 @@ class LinkedList {
             return null;
         }
 
-        // Initialize slow and fast pointers to reach
-        // middle of linked list
-        Node slow_ptr = head;
-        Node fast_ptr = head;
+        // step 1
+        Node slowPointer, fastPointer,prevPointer;
+        slowPointer = fastPointer = head;
+        prevPointer = null;
 
-        // Find the middle and previous of middle.
-        Node prev = null;
-
-        // To store previous of slow_ptr
-        while (fast_ptr != null && fast_ptr.next != null)
-        {
-            fast_ptr = fast_ptr.next.next;
-            prev = slow_ptr;
-            slow_ptr = slow_ptr.next;
+        while(fastPointer !=null) {
+            fastPointer = fastPointer.next;
+            if(fastPointer != null && fastPointer.next != null) {
+                prevPointer = slowPointer;
+                slowPointer = slowPointer.next;
+                fastPointer = fastPointer.next;
+            }
         }
-
         //Delete the middle node
-        prev.next = slow_ptr.next;
+        prevPointer.next = slowPointer.next;
 
         return head;
     }
