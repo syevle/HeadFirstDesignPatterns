@@ -39,6 +39,9 @@ class LinkedList {
     // This function will find middle element in linkedlist
     public static Node findMiddleNode(Node head)
     {
+        // Base cases
+        if (head == null)
+            return null;
         // step 1
         Node slowPointer, fastPointer;
         slowPointer = fastPointer = head;
