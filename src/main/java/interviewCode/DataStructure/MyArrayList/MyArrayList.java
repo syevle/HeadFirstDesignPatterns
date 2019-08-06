@@ -5,72 +5,80 @@ import java.util.Arrays;
 
 public class MyArrayList {
 
-    private Object[] myStore;
-    private int actSize = 0;
+    private static final int SIZE_FACTOR=5;
+
+    private Object data[];
+
+    private int index;
+
+    private int size;
 
     public MyArrayList(){
-        myStore = new Object[10];
-    }
-
-    public Object get(int index){
-        if(index < actSize){
-            return myStore[index];
-        } else {
-            throw new ArrayIndexOutOfBoundsException();
-        }
+        this.data=new Object[SIZE_FACTOR];
+        this.size=SIZE_FACTOR;
     }
 
     public void add(Object obj){
-        if(myStore.length-actSize <= 5){
-            increaseListSize();
+        System.out.println("index:"+this.index+"size:"+this.size+"data size:"+this.data.length);
+        if(this.index==this.size-1){
+            //we need to increase the size of data[]
+            increaseSizeAndReallocate();
         }
-        myStore[actSize++] = obj;
+        data[this.index]=obj;
+        this.index++;
+
     }
 
-    public Object remove(int index){
-        if(index < actSize){
-            Object obj = myStore[index];
-            myStore[index] = null;
-            int tmp = index;
-            while(tmp < actSize){
-                myStore[tmp] = myStore[tmp+1];
-                myStore[tmp+1] = null;
-                tmp++;
-            }
-            actSize--;
-            return obj;
-        } else {
-            throw new ArrayIndexOutOfBoundsException();
+    private void increaseSizeAndReallocate() {
+        this.size=this.size+SIZE_FACTOR;
+        Object newData[]=new Object[this.size];
+        for(int i=0; i<data.length;i++){
+            newData[i]=data[i];
         }
+        this.data=newData;
+        System.out.println("***index:"+this.index+"size:"+this.size+"data size:"+this.data.length);
+    }
+
+    public Object get(int i) throws Exception{
+        if(i>this.index-1){
+            throw new Exception("ArrayIndexOutOfBound");
+        }
+        if(i<0){
+            throw new Exception("Negative Value");
+        }
+        return this.data[i];
 
     }
 
-    public int size(){
-        return actSize;
+    public void remove(int i) throws Exception{
+        if(i>this.index-1){
+            throw new Exception("ArrayIndexOutOfBound");
+        }
+        if(i<0){
+            throw new Exception("Negative Value");
+        }
+        System.out.println("Object getting removed:"+this.data[i]);
+        for(int x=i; x<this.data.length-1;x++){
+            data[x]=data[x+1];
+        }
+        this.index--;
     }
 
-    private void increaseListSize(){
-        myStore = Arrays.copyOf(myStore, myStore.length*2);
-        System.out.println("\nNew length: "+myStore.length);
-    }
-
-    public static void main(String a[]){
+    public static void main(String[] args) throws Exception {
         MyArrayList mal = new MyArrayList();
-        mal.add(new Integer(2));
-        mal.add(new Integer(5));
-        mal.add(new Integer(1));
-        mal.add(new Integer(23));
-        mal.add(new Integer(14));
-        for(int i=0;i<mal.size();i++){
-            System.out.print(mal.get(i)+" ");
-        }
-        mal.add(new Integer(29));
-        System.out.println("Element at Index 5:"+mal.get(5));
-        System.out.println("List size: "+mal.size());
-        System.out.println("Removing element at index 2: "+mal.remove(2));
-        for(int i=0;i<mal.size();i++){
-            System.out.print(mal.get(i)+" ");
-        }
-    }
-}
+        mal.add("0");
+        mal.add("1");
+        mal.add("2");
+        mal.add("3");
+        mal.add("4");
+        mal.add("5");
+        mal.add("6");
+        mal.add("7");
+        mal.add("8");
+        mal.add("9");
 
+        mal.remove(5);
+        System.out.println(mal.get(7));
+    }
+
+}
